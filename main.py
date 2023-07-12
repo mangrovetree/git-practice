@@ -1,4 +1,5 @@
-from api_practice import get_weather_forecast
+from api_practice import get_weather_forecast, \
+    formatted_data_display
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -11,6 +12,6 @@ longitude = float(input("Enter longitude: "))
 forecast_data = get_weather_forecast(latitude, longitude)
 
 if forecast_data:
-    print(forecast_data)
+    formatted_data_display(forecast_data)
 else:
     print("Error occurred while fetching data from the API.")

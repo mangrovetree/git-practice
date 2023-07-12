@@ -11,7 +11,8 @@ def get_weather_forecast(latitude, longitude):
     else:
         return None
 
-
-
+def formatted_data_display(data):
+     # temporary
+     print(data)
 
 
