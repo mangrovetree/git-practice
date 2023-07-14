@@ -1,4 +1,4 @@
-from api_practice import get_weather_forecast, \
+from weather_api import get_weather_forecast, \
     formatted_data_display
 
 # Press the green button in the gutter to run the script.
